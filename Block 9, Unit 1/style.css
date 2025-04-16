@@ -1,0 +1,159 @@
+* {
+	margin: 0;					/* remove the default margins*/
+    padding: 0;					/* remove the default padding*/
+    box-sizing: border-box;		/* Padding and border are included in the width and height*/
+}
+
+.top-header {
+    width: 100%;					/* total width of the top header container*/
+    height: 150px;					/* height of the top-header*/
+    background-color: lightblue;	/* top header background color*/
+}
+	
+.hero-image {
+	height: 350px;
+    padding-left: 10px;             /* adds left side spacing to the hero image*/
+}
+    
+.nav-menu {
+	padding-top: 20px;				/* add some spacing between the nav contents and top of header*/
+    text-align: right;				/* move all nav links to the right side of webpage*/
+}
+
+.nav-menu a {
+	font-size: 30px;				/* change the font size to the content in top header*/
+    padding: 20px;					/* add some spacing between the content in the top header*/
+    text-decoration: none;			/* remove the default a tags underline*/
+}
+
+h1 {
+	text-align: center;				/* center my h1 heading*/
+	font-size: 48px;				/* change my h1 heading font size*/
+    padding-top: 20px;              /* adds more spacing on top of heading*/
+    padding-left: 40px;             /* adds more spacing to the left of heading*/
+}
+
+p, .content p {
+	margin-top: 15px;									/* adds more spacing between the h1 heading and paragraph*/
+    text-align: center;				    				/* center the entire paragraph*/
+    font-family: 'Montserrat', sans-serif;				/* changed the paragraph font type*/
+    letter-spacing: 1.5px;							/* adds more spacing between the lines of text*/
+    padding-left: 40px;
+}
+
+.cta {
+	margin-bottom: 30px;						/* adds more spacing between the call-to-action statement and the social icons*/
+}
+
+ul {
+    text-decoration: none;				/* removes the default underline for list items*/
+    text-align: center; 				/* makes the social icon centered with the text above*/
+}
+
+ul li {
+	display: inline;				/* removes the default block display for list items*/
+    margin-right: 20px;				/* adds more spacing between the icons*/
+}
+
+.fa-facebook {
+    color: rgb(64 102 177);           /* adding blue color to Facebook icon*/
+    font-size: 22px;                    /* increasing the icon size for better visibility*/
+}
+
+.fa-instagram {
+    color: rgb(234 68 144);           /* adding a bold pink color to Instagram icon*/
+    font-size: 22px;                    /* increasing the icon size for better visibility*/
+} 
+
+.fa-twitter {
+    color: rgb(2 158 245);              /* adding a sky blue to Twitter icon*/
+    font-size: 22px;                      /* increasing the icon size for better visibility*/
+}
+
+.nav-menu-about {
+	padding-top: 10px;				/* add some spacing between the nav contents and top of header*/
+    text-align: right;				/* move all nav links to the right side of webpage*/
+}
+
+.nav-menu-about a {
+	font-size: 30px;				/* change the font size to the content in top header*/
+    padding: 20px;					/* add some spacing between the content in the top header*/
+    text-decoration: none;			/* remove the default a tags underline*/
+}
+
+.about-heading {
+    padding-top: 30px;                          /* adds spacing between website top margin and header*/
+    text-align: left;				            /* center my h1 heading*/
+	font-size: 48px;				            /* change my h1 heading font size*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-container {
+    display: flex;                          /* turns a container into a flexbox layout */
+    justify-content: space-between;         /* adds equal spacing between the paragraphs and image*/
+    align-items: flex-start;                /* aligns items at the start of the container */
+    gap: 40px;                              /* space between paragraph and image */
+    padding: 10px;                          /* adds spacing around the entire container*/
+}
+  
+.text-content p {
+    flex: 1;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;                       /* adds spacing between the sentenses */
+    color: black;
+}
+  
+.pie-img img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cta-about {
+	margin-top: 30px;                      /* adds spcaing to the top of the cta*/
+    margin-bottom: 50px;                  /* adds spacing to the bottom of the cta*/
+    margin-left: 10px;                      /* adds spacing to the left side of he cta*/
+    text-align: left;
+}
+
+.about-links {
+    text-decoration: none;				/* removes the default underline for list items*/
+    text-align: left; 				    /* makes the social icon centered with the text above*/
+    margin-left: 50px;                  /* better aligns the icons with the paragraphs*/
+}
+
+.about-links li {
+	display: inline;				/* removes the default block display for list items*/
+    margin-right: 20px;				/* adds more spacing between the icons*/
+    padding-bottom: 30px;           /* adds more spacin below the icons*/
+}
+
+.pfolio-heading {
+    padding-top: 30px;                          /* adds spacing between website top margin and header*/
+    text-align: left;				            /* center my h1 heading*/
+	font-size: 48px;				            /* change my h1 heading font size*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 30px;                       /* adds spacing between the heading and header*/
+}
+
+.signature {
+  font-family: 'Dancing Script', cursive;           
+  font-size: 24px;
+  font-style: italic;
+  text-align: right;
+  margin-top: 16px;                 /* adds more spacing between the last paragraph and the signature*/
+  margin-right: 8px;                 /* moves the my signature to the right side*/
+  margin-bottom: 10px;               /* adds spacing between by signature and icons*/
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
